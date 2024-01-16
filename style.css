@@ -1,0 +1,45 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border: 1px solid red;
+  
+}
+.navbar a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    color: black;
+
+}
+
+.header h2{
+    position: fixed;
+    top:20;
+    left:65px;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+}
+
+.header h2 span{
+    color:#FF5400 ;
+}
