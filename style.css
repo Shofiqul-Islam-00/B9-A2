@@ -1,45 +1,168 @@
-*{
-    margin: 0 ;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    
 }
 
-body{
-    min-height: 100vh;
-}
-
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
+header {
     width: 100%;
-    padding: 20px 100px;
+    max-width: 1445px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
-    border: 1px solid red;
-  
-}
-.navbar a{
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
-    color: black;
-
+    padding-top: 50px;
+    padding: 40px 10px;
+    
 }
 
-.header h2{
-    position: fixed;
-    top:20;
-    left:65px;
-    width: 100%;
-    padding: 20px 100px;
+.nav-left {
     display: flex;
+    gap: 15px;
+    align-items: center;
 }
 
-.header h2 span{
-    color:#FF5400 ;
+.text{
+    color: #FF5400;
 }
+
+.nav-right>ul {
+    display: flex;
+    list-style: none;
+    gap: 44px;
+}
+
+.nav-right>ul a {
+    text-decoration: none;
+}
+
+.banner-section {
+    max-width: 1445px;
+    width: 100%;
+    margin: 50px auto;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/banner.png');
+    background-repeat: none;
+    background-size: cover;
+    border-radius: 20px;
+    height: 600px;
+    text-align: center;
+}
+
+.banner-section h1 {
+    padding-top: 106px;
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.banner-section p {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-selection {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    margin: 0 280px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.banner-section input,select,button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FFF;
+    border: 0;
+}
+
+.banner-section button {
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.banner-section button:hover {
+    background-color: #f10707;
+    color: #fff;
+ }
+
+ .popular-tours {
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    max-width: 1445px;
+    margin: 0 auto;
+}
+
+.popular-tours .popular-content {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.popular-content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-content p,ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.popular-content>.popular-list {
+    padding-left: 30px;
+}
+
+.popular-tours .popular-img {
+    width: 50%;
+}
+
+.popular-tours .popular-img img {
+    width: 100%;
+}
+
+.popular-content button {
+    border-radius: 10px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.popular-content button:hover {
+    background-color: #f10707;
+    color: #fff;
+ }
