@@ -193,7 +193,7 @@ ul {
 }
 
 .grid-item-1 {
-    background-image: url('../Images/Rectangle\ 5.png');
+    background-image: url('Images/Rectangle\ 5.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 320px;
@@ -203,7 +203,7 @@ ul {
 }
 
 .grid-item-2 {
-    background-image: url('../Images/Rectangle\ 8.png');
+    background-image: url('Images/Rectangle\ 8.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 320px;
@@ -213,7 +213,7 @@ ul {
 }
 
 .grid-item-3 {
-    background-image: url('../Images/Rectangle\ 6.png');
+    background-image: url('Images/Rectangle\ 6.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -222,7 +222,7 @@ ul {
 }
 
 .grid-item-4 {
-    background-image: url('../Images/Rectangle\ 7.png');
+    background-image: url('Images/Rectangle\ 7.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -231,7 +231,7 @@ ul {
 }
 
 .grid-item-5 {
-    background-image: url('../Images/Rectangle\ 9.png');
+    background-image: url('Images/Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -240,7 +240,7 @@ ul {
 }
 
 .grid-item-6 {
-    background-image: url('../Images/Rectangle\ 10.png');
+    background-image: url('Images/Rectangle\ 10.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -249,7 +249,7 @@ ul {
 }
 
 .grid-item-7 {
-    background-image: url('../Images/Rectangle\ 11.png');
+    background-image: url('Images/Rectangle\ 11.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
